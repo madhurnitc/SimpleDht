@@ -135,13 +135,16 @@ c. All keys and values that your provider stores should use the string data type
 The template has an activity used for your own testing and debugging. It has three buttons, one button that displays “Test”, one button that displays “LDump” and another button that displays “GDump.” As with the previous assignment, “Test” button is already implemented (it’s the same as “PTest” from the last assignment). You can implement the other two buttons to further test your DHT.
 
 1. LDump  
- a. When touched, this button should dump and display all the <key, value> pairs stored in your local partition of the node.
 
-b.  This means that this button can give “@” as the selection parameter to query().
+When touched, this button should dump and display all the <key, value> pairs stored in your local partition of the node.
+
+This means that this button can give “@” as the selection parameter to query().
 
 2. GDump
- a. When touched, this button should dump and display all the <key, value> pairs stored in your whole DHT. Thus, LDump button is for local dump, and this button (GDump) is for global dump of the entire <key, value> pairs.
-  b. This means that this button can give “*” as the selection parameter to query().
+
+When touched, this button should dump and display all the <key, value> pairs stored in your whole DHT. Thus, LDump button is for local dump, and this button (GDump) is for global dump of the entire <key, value> pairs.
+
+This means that this button can give “*” as the selection parameter to query().
 
 #### Testing  
 

@@ -182,19 +182,15 @@ emulator-5562: “5562”</code></pre>
 <h4>Step 2: Writing the Main Activity</h4>
 <p>The template has an activity used for your own testing and debugging. It has three buttons, one button that displays “Test”, one button that displays “LDump” and another button that displays “GDump.” As with the previous assignment, “Test” button is already implemented (it’s the same as “PTest” from the last assignment). You can implement the other two buttons to further test your DHT.</p>
 <ol style="list-style-type: decimal">
-<li>LDump<br /></li>
+<li>LDump</li>
 </ol>
-<ol style="list-style-type: lower-alpha">
-<li><p>When touched, this button should dump and display all the <key, value> pairs stored in your local partition of the node.</p></li>
-<li><p>This means that this button can give “@” as the selection parameter to query().</p></li>
-</ol>
+<p>When touched, this button should dump and display all the <key, value> pairs stored in your local partition of the node.</p>
+<p>This means that this button can give “@” as the selection parameter to query().</p>
 <ol start="2" style="list-style-type: decimal">
 <li>GDump</li>
 </ol>
-<ol style="list-style-type: lower-alpha">
-<li>When touched, this button should dump and display all the <key, value> pairs stored in your whole DHT. Thus, LDump button is for local dump, and this button (GDump) is for global dump of the entire <key, value> pairs.</li>
-<li>This means that this button can give “*” as the selection parameter to query().</li>
-</ol>
+<p>When touched, this button should dump and display all the <key, value> pairs stored in your whole DHT. Thus, LDump button is for local dump, and this button (GDump) is for global dump of the entire <key, value> pairs.</p>
+<p>This means that this button can give “*” as the selection parameter to query().</p>
 </div>
 <div id="testing" class="section level4">
 <h4>Testing</h4>
